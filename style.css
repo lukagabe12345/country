@@ -1,0 +1,203 @@
+@import url("//cdn.web-fonts.ge/fonts/bpg-phone-sans-bold/css/bpg-phone-sans-bold.min.css");
+
+*{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+.container{
+    position: relative;
+   display: flex;
+   margin: 0 auto;
+   justify-content: center;
+   top: 100px;
+
+}
+
+ 
+body{
+  
+    animation-name: luk;
+    animation-duration: 2s;
+}
+
+video{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 150px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.swiper-slide p{
+    width: 50%;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "BPG Phone Sans Bold", sans-serif;
+    color: white;
+}
+
+
+h2{
+    z-index: 2;
+    position: relative;
+    text-align: center;
+    font-family: 'Kenia', sans-serif;
+    color: rgb(129, 19, 19);
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: aliceblue;
+    top: 10px;
+   
+}
+
+@keyframes luk{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
+.swiper-slide h1{
+    font-family: "BPG Phone Sans Bold", sans-serif;
+   
+    color: white;
+}
+
+
+  .swiper-slide img{
+    width: 400px;
+    height: 250px;
+    border: 5px solid white;
+    margin: 10px;
+  }
+
+
+  @media (max-width:750px){
+   
+.swiper-slide p{
+    width: 100%;
+}
+
+.swiper-slide .p1{
+    width: 100%;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.swiper-slide .p6{
+    width: 100%;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+
+
+.swiper-slide .p2{
+    width: 100%;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+
+.swiper-slide .p3{
+    width: 100%;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.swiper-slide .p4{
+    width: 100%;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+
+
+.swiper-slide .p5{
+    width: 100%;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+
+.swiper-slide .p7{
+    width: 100%;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.swiper-slide .p9{
+    width: 100%;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+
+.swiper-slide .p8{
+    width: 100%;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+
+
+
+
+
+video{
+    position: fixed;
+    max-width: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+
+
+}
+
+.swiper-slide img{
+    width: 90%;
+}
+
+
+.swiper .swiper-button-next{
+   display: none;
+}
+
+.swiper .swiper-button-prev{
+    display: none;
+ }
+ 
+
+  }
+
+
+
+ .swiper .swiper-button-prev{
+    color: aliceblue;
+  }
+
+  .swiper .swiper-button-next{
+    color: aliceblue;
+  }
